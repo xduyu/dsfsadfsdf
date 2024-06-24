@@ -1,0 +1,175 @@
+:root {
+    --font-family: "Raleway", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0px 8px;
+}
+
+.hero {
+    background-image: url(../img/Group\ 1.png);
+    height: 100vh;
+    background-size: cover;
+}
+.header {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.nav {
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 15px;
+color: #fff;
+transition: all 0.3s;
+}
+
+.nav__link:hover{
+    color: #616161;
+    border-bottom: none;
+}
+
+.desc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desc__img-house{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.desc__title {
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 100px;
+color: #fff;
+}
+.desc__subtitle {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+width: 480px;
+padding-bottom: 40px;
+}
+
+.message__btn{
+    border-radius: 6px;
+    width: 154px;
+    height: 34px;
+    color: white;
+    border: none;
+    background: #2e2e2e;
+}
+
+.now__in-sell {
+    height: 90vh;
+    background-color: #1C1C1C;
+    display: flex;
+}
+.sell__title {
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 30px;
+color: #fff;
+}
+.sell__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+.sell__item {
+    height: 239px;
+    width: 236px;
+    background-color: #2A2A2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sell__link {
+    max-height: 242px;
+}
+.sum-img {
+    background-image: url(../img/Group\ 1.png);
+    background-size: cover;
+    height: 242px;
+    object-fit: cover;
+    background-position: center;
+}   
+
+.com-sun{
+    background-color: #1C1C1C;
+}
+
+.com-sun__title {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.5);
+display: flex;
+justify-content: center;
+padding-top: 100px;
+}

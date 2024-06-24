@@ -1,0 +1,326 @@
+@media (max-width: 920px) {
+
+    body{
+        transition: all 0.3s;
+    }
+    .desc{
+        padding-left: 60px;
+    }
+    /* sell now */
+    
+    .now__in-sell {
+        height: 75vh;
+        background-color: #1C1C1C;
+        display: flex;
+    }
+    .sell__title {
+        display: flex;
+        justify-content: center;
+        padding-top: 64px;
+        font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    }
+    .sell__list {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 30px;
+        padding: 0 100px;
+    }
+    .sell__item {
+        height: 239px;
+        width: 236px;
+        background-color: #2A2A2A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sell__link {
+        max-height: 242px;
+    }
+    .sum-img {
+        background-image: url(../img/Group\ 1.png);
+        background-size: cover;
+        height: 242px;
+        object-fit: cover;
+        background-position: center;
+    }   
+
+    /* end sell now  */
+}
+
+
+
+@media (max-width: 600px) {
+
+    .desc{
+        padding-left: 0px;
+    }
+
+    body{
+        transition: all 0.3s;
+    }
+
+    .desc__title{
+        justify-content: left;
+        font-size: 60px;
+        text-align: center;
+        padding-left: 70px;
+        transition: all 0.3s;
+    }
+
+    .desc__subtitle {
+        text-align: center;
+        padding-left: 70px;
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 480px;
+    padding-bottom: 80px;
+    }
+
+    .btn-mess{
+        padding-left: 200px;
+    }
+
+    /* sell now */
+    
+    .now__in-sell {
+        height: 100vh;
+        background-color: #1C1C1C;
+        display: flex;
+    }
+    .sell__title {
+        display: flex;
+        justify-content: center;
+        padding-top: 64px;
+        font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    }
+    .sell__list {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        flex-wrap: wrap;
+        column-gap: 50px;
+    }
+    .sell__item {
+        height: 239px;
+        width: 236px;
+        background-color: #2A2A2A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sell__link {
+        max-height: 242px;
+    }
+    .sum-img {
+        background-image: url(../img/Group\ 1.png);
+        background-size: cover;
+        height: 242px;
+        object-fit: cover;
+        background-position: center;
+    }   
+
+    /* end sell now  */
+}
+
+@media (max-width: 431px) {
+
+    .desc{
+        padding-left: 0px;
+    }
+
+
+    body{
+        transition: all 0.3s;
+    }
+
+    .desc__title{
+        justify-content: left;
+        font-size: 60px;
+        padding-right: 140px;
+        text-align: center;
+        transition: all 0.3s;
+    }
+
+    .desc__subtitle {
+        text-align: center;
+        padding-right: 140px;
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    max-width: 480px;
+    padding-bottom: 80px;
+    }
+
+    .btn-mess{
+        padding-left: 125px;
+    }
+
+    .sell__title {
+        padding-bottom: 55px;
+        display: flex;
+        justify-content: center;
+        padding-top: 64px;
+        font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    }
+
+    .sell__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        padding-left: 70px;
+        row-gap: 20px;
+    }
+
+    .com-sun{
+        padding-top: 600px;
+        background-color: #1C1C1C;
+        height: 10vh;
+    }
+    
+}
+
+
+@media (max-width: 395px) {
+
+    .desc{
+        padding-left: 0px;
+    }
+
+
+    body{
+        transition: all 0.3s;
+    }
+
+    .desc__title{
+        font-size: 60px;
+        text-align: left;
+        padding-left: 30px;
+        transition: all 0.3s;
+    }
+
+    .desc__subtitle {
+        text-align: left;
+        padding-left: 30px;
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 380px;
+    }
+
+    .btn-mess{
+        padding-left: 30px;
+    }
+
+    .com-sun{
+        padding-top: 600px;
+        background-color: #1C1C1C;
+        height: 10vh;
+    }
+    
+}
+
+@media (max-width: 376px) {
+
+    body{
+        transition: all 0.3s;
+    }
+
+    .desc__title{
+        font-size: 60px;
+        text-align: left;
+        padding-left: 30px;
+        transition: all 0.3s;
+    }
+
+    .desc__subtitle {
+        text-align: left;
+        padding-left: 30px;
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 380px;
+    padding-bottom: 30px;
+    }
+
+    .btn-mess{
+
+        padding-left: 30px;
+    }
+
+    .com-sun{
+        padding-top: 390px;
+        background-color: #1C1C1C;
+        height: 10vh;
+    }
+    
+    /* sell now */
+
+    .now__in-sell {
+        height: 100vh;
+        background-color: #1C1C1C;
+        display: flex;
+    }
+    .sell__title {
+        display: flex;
+        justify-content: center;
+        padding-top: 64px;
+        font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    }
+    .sell__list {
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        flex-wrap: wrap;
+        column-gap: 50px;
+    }
+    .sell__item {
+        height: 239px;
+        width: 236px;
+        background-color: #2A2A2A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sell__link {
+        max-height: 242px;
+    }
+    .sum-img {
+        background-image: url(../img/Group\ 1.png);
+        background-size: cover;
+        height: 242px;
+        object-fit: cover;
+        background-position: center;
+    }   
+
+    /* end sell now  */
+    
+    .com-sun{
+        padding-top: 600px;
+        background-color: #1C1C1C;
+        height: 10vh;
+    }
+    
+}
+
